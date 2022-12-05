@@ -1,0 +1,104 @@
+{
+  "_from": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball",
+  "_id": "package-switch@0.10.4",
+  "_inBundle": false,
+  "_integrity": "sha512-d659ln3bsdm9biLCDgrfKGcLseS1kU+FFUMEfzm8Ai8a4UKLhlmGbhOWLuLp1q9Gm0/YN7hOW7NNoHjUlw78OQ==",
+  "_location": "/package-switch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball",
+  "_shasum": "9215096040d3e3d238842bd0636fe7c964671432",
+  "_spec": "https://www.atom.io/api/packages/package-switch/versions/0.10.4/tarball",
+  "_where": "C:\\Users\\DELL\\AppData\\Local\\Temp\\apm-install-dir-2022024-3960-fyn3tz.pj6h7",
+  "author": {
+    "name": "Amin Yahyaabadi, Fabian Stiewitz"
+  },
+  "bugs": {
+    "url": "https://github.com/aminya/package-switch/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views-plus": "^3.0.4",
+    "season": "^6.0.2"
+  },
+  "deprecated": false,
+  "description": "Easy and Fast package activation/deactivation",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "@types/atom": "^1.40.4",
+    "@types/season": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "babel-eslint": "latest",
+    "coffeescript": "^1.12.7",
+    "eslint": "latest",
+    "eslint-plugin-coffee": "latest",
+    "eslint-plugin-json": "latest",
+    "eslint-plugin-only-warn": "latest",
+    "fs-plus": "latest",
+    "prettier": "latest",
+    "rollup": "^2.13.1",
+    "rollup-plugin-coffee-script": "^2.0.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "shx": "^0.3.2",
+    "tslib": "^2.0.0",
+    "tslint": "latest",
+    "tslint-config-prettier": "latest",
+    "typescript": "^3.9.5"
+  },
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aminya/package-switch#readme",
+  "keywords": [
+    "package",
+    "activate",
+    "deactivate",
+    "activation",
+    "disable",
+    "enable",
+    "load",
+    "bundle",
+    "switch",
+    "shutdown"
+  ],
+  "license": "MIT",
+  "main": "lib/main.js",
+  "name": "package-switch",
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "printWidth": 120
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminya/package-switch.git"
+  },
+  "scripts": {
+    "build": "npm run clean && env NODE_ENV=production env BABEL_ENV=production rollup -c",
+    "buildlocal": "npm run clean && npm run typescript -s",
+    "clean": "shx rm -rf lib spec/package-switch.bundles ./package-switch.bundles",
+    "dev": "npm run clean && env NODE_ENV=development env BABEL_ENV=production rollup -c -w",
+    "lint": "eslint . --fix --ext js,ts,coffee,json",
+    "ppublish": "bash ./ppublish.sh",
+    "prepare": "npm run build && node ./node_modules/atom-space-pen-views-plus/scripts/postinstall.js",
+    "prettier_out": "prettier --write ./lib/**/*.js",
+    "prettier_src": "prettier --write ./src/**/*.ts",
+    "test": "npm run buildlocal && atom --test spec",
+    "typescript": "tsc -p ./src/tsconfig.json || echo done"
+  },
+  "version": "0.10.4"
+}

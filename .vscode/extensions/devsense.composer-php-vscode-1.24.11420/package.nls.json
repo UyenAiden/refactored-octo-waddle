@@ -1,0 +1,13 @@
+{
+	"title": "Composer",
+    "description": "All-in-One composer integration, quick actions, commands, automatic installation, tasks, code lenses, diagnostics, and composer.json IntelliSense.",
+    
+    "commands.download.title": "update the internal composer.phar",
+    "commands.search.title": "search ...",
+
+    "task.composer.command.description": "The composer command to run.",
+    "task.composer.args.description": "Additional arguments for the composer command.",
+
+    "capabilities.virtualWorkspaces.description": "In virtual workspaces, composer packages can't be installed or updated.",
+    "capabilities.untrustedWorkspaces.description": ""
+}

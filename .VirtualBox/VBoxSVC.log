@@ -1,0 +1,52 @@
+00:00:00.008075 main     VirtualBox COM Server 6.1.36 r152435 win.amd64 (Jul 19 2022 21:51:27) release log
+00:00:00.008077 main     Log opened 2022-09-13T15:29:16.033351700Z
+00:00:00.008078 main     Build Type: release
+00:00:00.008094 main     OS Product: Windows 11
+00:00:00.008095 main     OS Release: 10.0.22000
+00:00:00.008096 main     OS Service Pack: 
+00:00:00.180845 main     DMI Product Name: Inspiron 7501
+00:00:00.193396 main     DMI Product Version: 
+00:00:00.193452 main     Firmware type: UEFI
+00:00:00.193845 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.193940 main     Host RAM: 7953MB (7.7GB) total, 562MB available
+00:00:00.193956 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.193956 main     Process ID: 12808
+00:00:00.193957 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.277581          VirtualBox: object creation starts
+00:00:00.280263          Home directory: 'C:\Users\DELL\.VirtualBox'
+00:00:00.283524          Installed Drivers:
+00:00:00.289481            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.36.2435)
+00:00:00.291063            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.36.2435)
+00:00:00.291864            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.36.2435)
+00:00:00.294026            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.36.2435)
+00:00:00.328890          Loading settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.340687          usbLibGetDevices: Starting USB device enumeration
+00:00:00.358707          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&147a43a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.359844          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&147a43a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:00:00.360158          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&147a43a&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:01.011869          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:01.016451          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0x565a)
+00:00:01.017618          USB: Unknown USB device detected (idVendor: 0x27c6, idProduct: 0x538d)
+00:00:01.017680          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:01.260772          netIfIsWireless: CreateFile on '\\.\{EF2CB9BA-A932-46A6-A769-068D8991FBD2}' failed with rcWin=2 (0x2) - ignoring
+00:00:01.269502          HostDnsMonitor: initializing
+00:00:01.283572          HostDnsMonitor: updating information
+00:00:01.284575          HostDnsMonitor: old information
+00:00:01.284577            no server entries
+00:00:01.284578            no domain set
+00:00:01.284579            no search string entries
+00:00:01.284580          HostDnsMonitor: new information
+00:00:01.284580            server 1: 192.35.82.50
+00:00:01.284581            server 2: 128.253.180.2
+00:00:01.284581            server 3: 132.236.56.250
+00:00:01.284582            domain: redrover.cornell.edu
+00:00:01.284582            no search string entries
+00:00:01.295444          VD: VDInit finished with VINF_SUCCESS
+00:00:01.308127          Loading settings file "C:\Users\DELL\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:00:01.315973          VirtualBox: object created
+00:00:08.971382 main     VirtualBox: object deletion starts
+00:00:08.971506 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'D:\Ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:08.978938 main     HostDnsMonitor: shutting down ...
+00:00:08.979082 main     HostDnsMonitor: shut down
+00:00:08.984829 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:08.985738 main     VirtualBox: object deleted

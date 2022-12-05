@@ -1,0 +1,2 @@
+C:\Users\DELL\anaconda3\envs\myen
+C:\Users\DELL\anaconda3\envs\myenv

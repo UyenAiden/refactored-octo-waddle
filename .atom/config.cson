@@ -1,0 +1,11 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 15
+  "exception-reporting":
+    userId: "3866ddb7-9c24-43c5-9b75-e6104aaf4f09"
+  welcome:
+    showOnStartup: false

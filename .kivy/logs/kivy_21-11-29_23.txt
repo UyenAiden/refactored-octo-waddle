@@ -1,0 +1,57 @@
+[INFO   ] Logger: Record log in C:\Users\DELL\.kivy\logs\kivy_21-11-29_23.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Users\DELL\anaconda3\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\DELL\anaconda3\python.exe"
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Audio: Providers: audio_sdl2 (audio_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: GLEW initialization succeeded
+[INFO   ] GL: Backend used <glew>
+[INFO   ] GL: OpenGL version <b'4.6.0 - Build 27.20.100.8935'>
+[INFO   ] GL: OpenGL vendor <b'Intel'>
+[INFO   ] GL: OpenGL renderer <b'Intel(R) UHD Graphics'>
+[INFO   ] GL: OpenGL parsed version: 4, 6
+[INFO   ] GL: Shading version <b'4.60 - Build 27.20.100.8935'>
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <32>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\runpy.py", line 194, in _run_module_as_main
+[WARNING] stderr:     return _run_code(code, main_globals, None,
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\runpy.py", line 87, in _run_code
+[WARNING] stderr:     exec(code, run_globals)
+[WARNING] stderr:   File "invaders\__main__.py", line 28, in <module>
+[WARNING] stderr:     Invaders(width=GAME_WIDTH,height=GAME_HEIGHT).run()
+[WARNING] stderr:   File "invaders\game2d\app.py", line 279, in run
+[WARNING] stderr:     kivy.app.App.run(self)
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\site-packages\kivy\app.py", line 950, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+[WARNING] stderr:     EventLoop.mainloop()
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\site-packages\kivy\base.py", line 347, in mainloop
+[WARNING] stderr:     self.idle()
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\site-packages\kivy\base.py", line 387, in idle
+[WARNING] stderr:     Clock.tick()
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\site-packages\kivy\clock.py", line 733, in tick
+[WARNING] stderr:     self.post_idle(ts, self.idle())
+[WARNING] stderr:   File "C:\Users\DELL\anaconda3\lib\site-packages\kivy\clock.py", line 776, in post_idle
+[WARNING] stderr:     self._process_events()
+[WARNING] stderr:   File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+[WARNING] stderr:   File "invaders\game2d\app.py", line 343, in _bootstrap
+[WARNING] stderr:     self.start()
+[WARNING] stderr:   File "invaders\app.py", line 91, in start
+[WARNING] stderr:     self._state = STATE_IACTIVE
+[WARNING] stderr: NameError: name 'STATE_IACTIVE' is not defined
